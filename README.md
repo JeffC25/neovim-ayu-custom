@@ -1,14 +1,6 @@
 # Neovim Ayu
 
-A colorscheme for Neovim reimplemented in lua from [ayu-vim](https://github.com/Luxed/ayu-vim).
-
-## Screenshots
-
-![dark](screenshots/dark.png)
-
-![mirage](screenshots/mirage.png)
-
-![light](screenshots/light.png)
+Modified fork of [neovim-ayu](https://github.com/Shatur/neovim-ayu)
 
 ## Commands
 
@@ -20,7 +12,6 @@ To configure the plugin, you can call `require('ayu').setup(values)`, where `val
 
 ```lua
 require('ayu').setup({
-    mirage = false, -- Set to `true` to use `mirage` variant instead of `dark` for dark background.
     terminal = true, -- Set to `false` to let terminal manage its own colors.
     overrides = {}, -- A dictionary of group names, each associated with a dictionary of parameters (`bg`, `fg`, `sp` and `style`) and colors in hex.
 })
