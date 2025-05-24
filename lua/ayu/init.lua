@@ -128,7 +128,7 @@ local function set_groups()
     ['@variable.builtin'] = { fg = colors.func },
     ['@variable.member'] = { fg = colors.tag },
     ['@variable.parameter'] = { fg = colors.fg },
-    ['@module'] = { fg = colors.func },
+    ['@module'] = { fg = colors.fg },
     ['@markup.heading'] = { fg = colors.keyword },
     ['@keyword.storage'] = { fg = colors.keyword },
 
