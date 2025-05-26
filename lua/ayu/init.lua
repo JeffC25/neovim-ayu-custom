@@ -131,6 +131,7 @@ local function set_groups()
     ['@module'] = { fg = colors.fg },
     ['@markup.heading'] = { fg = colors.keyword },
     ['@keyword.storage'] = { fg = colors.keyword },
+    ['@function.builtin'] = { link = '@function' },
 
     ['@lsp.type.keyword'] = {},
     ['@keyword'] = { link = 'Statement' },

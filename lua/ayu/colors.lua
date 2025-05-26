@@ -1,7 +1,7 @@
 local colors = {
   black = '#000000',
   red = '#E65050',
-  green = '#68A400',
+  green = '#50A400',
   yellow = '#FF8F40',
   blue = '#399EE6',
   magenta = '#A37ACC',
@@ -25,7 +25,7 @@ function colors.generate()
   colors.ui = '#8A9199'
 
   colors.tag = '#1F2430'
-  colors.func = '#68A400'
+  colors.func = '#50A400'
   colors.entity = '#399EE6'
   colors.string = '#86B300'
   colors.regexp = '#4CBF99'
