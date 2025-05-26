@@ -1,26 +1,39 @@
 local colors = {
-  white = '#FFFFFF',
   black = '#000000',
-
+  red = '#E65050',
+  green = '#68A400',
+  yellow = '#FF8F40',
+  blue = '#399EE6',
+  magenta = '#A37ACC',
+  cyan = '#4CBF99',
+  white = '#FFFFFF',
+  brightBlack = '#8A9199',
+  brightRed = '#F07171',
+  brightGreen = '#86B300',
+  brightYellow = '#FFAA33',
+  brightBlue = '#55B4D4',
+  brightMagenta = '#D3B8F9',
+  brightCyan = '#6CEFD9',
+  brightWhite = '#FFFFFF',
   lsp_inlay_hint = '#969696',
 }
 
 function colors.generate()
-  colors.accent = '#5C6166'
+  colors.accent = '#86B300'
   colors.bg = '#F8F9FA'
   colors.fg = '#1F2430'
   colors.ui = '#8A9199'
 
   colors.tag = '#1F2430'
-  colors.func = '#7aa400'
+  colors.func = '#68A400'
   colors.entity = '#399EE6'
   colors.string = '#86B300'
   colors.regexp = '#4CBF99'
   colors.markup = '#FF8F40'
   colors.keyword = '#E65050'
-  colors.special = '#1F2430'
-  colors.comment = '#5C6166'
-  colors.constant = '#478ACC'
+  colors.special = '#399EE6'
+  colors.comment = '#8A9199'
+  colors.constant = '#55B4D4'
   colors.operator = '#E65050'
   colors.error = '#E65050'
   colors.lsp_parameter = '#FF8F40'

@@ -4,22 +4,22 @@ local ayu = {}
 
 --- Apply terminal highlighting.
 local function set_terminal_colors()
-  vim.g.terminal_color_0 = colors.bg
-  vim.g.terminal_color_1 = colors.markup
-  vim.g.terminal_color_2 = colors.string
-  vim.g.terminal_color_3 = colors.accent
-  vim.g.terminal_color_4 = colors.tag
-  vim.g.terminal_color_5 = colors.constant
-  vim.g.terminal_color_6 = colors.regexp
-  vim.g.terminal_color_7 = colors.fg
-  vim.g.terminal_color_8 = colors.fg_idle
-  vim.g.terminal_color_9 = colors.error
-  vim.g.terminal_color_10 = colors.string
-  vim.g.terminal_color_11 = colors.accent
-  vim.g.terminal_color_12 = colors.tag
-  vim.g.terminal_color_13 = colors.constant
-  vim.g.terminal_color_14 = colors.regexp
-  vim.g.terminal_color_15 = colors.comment
+  vim.g.terminal_color_0 = colors.black
+  vim.g.terminal_color_1 = colors.red
+  vim.g.terminal_color_2 = colors.green
+  vim.g.terminal_color_3 = colors.yellow
+  vim.g.terminal_color_4 = colors.blue
+  vim.g.terminal_color_5 = colors.magenta
+  vim.g.terminal_color_6 = colors.cyan
+  vim.g.terminal_color_7 = colors.white
+  vim.g.terminal_color_8 = colors.brightBlack
+  vim.g.terminal_color_9 = colors.brightred
+  vim.g.terminal_color_10 = colors.brightGreen
+  vim.g.terminal_color_11 = colors.brightYellow
+  vim.g.terminal_color_12 = colors.brightBlue
+  vim.g.terminal_color_13 = colors.brightMagenta
+  vim.g.terminal_color_14 = colors.brightCyan
+  vim.g.terminal_color_15 = colors.brightWhite
   vim.g.terminal_color_background = colors.bg
   vim.g.terminal_color_foreground = colors.fg
 end
@@ -37,7 +37,7 @@ local function set_groups()
     CursorColumn = { bg = colors.line },
     CursorLine = { bg = colors.line },
     CursorLineNr = { fg = colors.accent, bg = colors.line },
-    LineNr = { fg = colors.guide_normal },
+    LineNr = { fg = colors.comment },
 
     Directory = { fg = colors.func },
     ErrorMsg = { fg = colors.error },
@@ -82,9 +82,9 @@ local function set_groups()
     Exception = { fg = colors.markup },
     PreProc = { fg = colors.accent },
     Type = { fg = colors.entity },
-    Structure = { fg = colors.special },
+    Structure = { fg = colors.fg },
     Special = { fg = colors.accent },
-    Delimiter = { fg = colors.special },
+    Delimiter = { fg = colors.fg },
     Underlined = { sp = colors.tag, underline = true },
     Ignore = { fg = colors.fg },
     Error = { fg = colors.white, bg = colors.error },
@@ -161,7 +161,7 @@ local function set_groups()
     TreesitterContext = { bg = colors.selection_inactive },
 
     -- Telescope.
-    TelescopePromptBorder = { fg = colors.accent },
+    TelescopePromptBorder = { fg = colors.fg },
 
     -- Cmp.
     CmpGhostText = { fg = colors.comment },
