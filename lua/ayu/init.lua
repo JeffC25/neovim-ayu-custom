@@ -132,6 +132,10 @@ local function set_groups()
     ['@markup.heading'] = { fg = colors.keyword },
     ['@keyword.storage'] = { fg = colors.keyword },
 
+    ['@lsp.type.keyword'] = {},
+    ['@keyword'] = { link = 'Statement' },
+    ['@keyword.function'] = { fg = colors.entity },
+
     ['@lsp.type.namespace'] = { link = '@module' },
     ['@lsp.type.type'] = { link = '@type' },
     ['@lsp.type.class'] = { link = '@type' },
@@ -148,6 +152,10 @@ local function set_groups()
     ['@lsp.type.macro'] = { link = '@function.macro' },
     ['@lsp.type.decorator'] = { link = '@function' },
     ['@lsp.mod.constant'] = { link = '@constant' },
+
+    ['@lsp.type.string'] = {},
+    ['@string'] = { link = 'String' },
+    ['@string.escape'] = { fg = colors.entity },
 
     -- TreesitterContext.
     TreesitterContext = { bg = colors.selection_inactive },
