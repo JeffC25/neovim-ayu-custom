@@ -6,7 +6,7 @@ local colors = {
   blue = '#399EE6',
   magenta = '#A37ACC',
   cyan = '#4CBF99',
-  white = '#FFFFFF',
+  white = '#F3F3F3',
   brightBlack = '#8A9199',
   brightRed = '#F07171',
   brightGreen = '#86B300',
@@ -20,7 +20,7 @@ local colors = {
 
 function colors.generate()
   colors.accent = '#86B300'
-  colors.bg = '#F8F9FA'
+  colors.bg = '#F3F3F3'
   colors.fg = '#2F3440'
   colors.ui = '#8A9199'
 
