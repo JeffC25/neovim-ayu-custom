@@ -57,7 +57,7 @@ local function set_groups()
     Search = { fg = colors.bg, bg = colors.constant },
     CurSearch = { fg = colors.bg, bg = colors.special },
     IncSearch = { fg = colors.keyword, bg = colors.selection_inactive },
-    SpecialKey = { fg = colors.selection_inactive },
+    SpecialKey = { fg = colors.accent },
     SpellCap = { sp = colors.tag, undercurl = true },
     SpellLocal = { sp = colors.keyword, undercurl = true },
     SpellBad = { sp = colors.error, undercurl = true },
