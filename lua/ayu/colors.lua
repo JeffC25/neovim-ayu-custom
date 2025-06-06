@@ -1,5 +1,5 @@
 local colors = {
-  black = '#000000',
+  black = '#2F3440',
   red = '#E65050',
   green = '#50A400',
   yellow = '#FF8F40',
@@ -10,7 +10,7 @@ local colors = {
   brightBlack = '#8A9199',
   brightRed = '#F07171',
   brightGreen = '#86B300',
-  brightYellow = '#FFAA33',
+  brightYellow = '#FFCC4C',
   brightBlue = '#55B4D4',
   brightMagenta = '#D3B8F9',
   brightCyan = '#6CEFD9',
@@ -21,10 +21,10 @@ local colors = {
 function colors.generate()
   colors.accent = '#86B300'
   colors.bg = '#F8F9FA'
-  colors.fg = '#1F2430'
+  colors.fg = '#2F3440'
   colors.ui = '#8A9199'
 
-  colors.tag = '#1F2430'
+  colors.tag = '#2F3440'
   colors.func = '#50A400'
   colors.entity = '#399EE6'
   colors.string = '#86B300'
@@ -44,14 +44,14 @@ function colors.generate()
   colors.panel_border = '#F0F0F0'
   colors.gutter_normal = '#CCCFD3'
   colors.gutter_active = '#A0A6AC'
-  colors.selection_bg = '#D3E1F5'
-  colors.selection_inactive = '#E7EEF7'
+  colors.selection_bg = '#E7EAED'
+  colors.selection_inactive = '#D3E1F5'
   colors.selection_border = '#E1E1E2'
   colors.guide_active = '#D2D5D8'
   colors.guide_normal = '#E4E6E9'
 
   colors.vcs_added = '#6CBF43'
-  colors.vcs_modified = '#478ACC'
+  colors.vcs_modified = '#D3B8F9'
   colors.vcs_removed = '#FF7383'
 
   colors.vcs_added_bg = '#E0E7CD'

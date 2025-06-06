@@ -51,8 +51,8 @@ local function set_groups()
     ModeMsg = { fg = colors.string },
     MoreMsg = { fg = colors.string },
     NonText = { fg = colors.guide_normal },
-    Pmenu = { fg = colors.fg, bg = colors.selection_inactive },
-    PmenuSel = { fg = colors.fg, bg = colors.selection_inactive, reverse = true },
+    Pmenu = { bg = colors.selection_bg },
+    PmenuSel = { bg = colors.selection_inactive },
     Question = { fg = colors.string },
     Search = { fg = colors.bg, bg = colors.constant },
     CurSearch = { fg = colors.bg, bg = colors.special },
@@ -156,15 +156,19 @@ local function set_groups()
 
     ['@lsp.type.string'] = {},
     ['@string'] = { link = 'String' },
-    ['@string.escape'] = { fg = colors.entity },
+    ['@string.escape'] = { fg = colors.func },
 
     -- TreesitterContext.
     TreesitterContext = { bg = colors.selection_inactive },
 
     -- Telescope.
-    TelescopePromptBorder = { fg = colors.fg },
+    TelescopePromptBorder = { fg = colors.accent },
+    TelescopeBorder = { fg = colors.accent },
+    TeleScopeTitle =  { fg = colors.fg },
 
     -- Cmp.
+    CmpNormal = { bg = colors.line },
+    CmpDocNormal = { bg = colors.line },
     CmpGhostText = { fg = colors.comment },
     CmpItemAbbrMatch = { fg = colors.keyword },
     CmpItemAbbrMatchFuzzy = { fg = colors.func },
