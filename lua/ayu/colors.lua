@@ -34,7 +34,7 @@ function colors.generate()
   colors.special = '#399EE6'
   colors.comment = '#8A9199'
   colors.constant = '#55B4D4'
-  colors.operator = '#E65050'
+  colors.operator = '#FF8F40'
   colors.error = '#E65050'
   colors.lsp_parameter = '#FF8F40'
 
